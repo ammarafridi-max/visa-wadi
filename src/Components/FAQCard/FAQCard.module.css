@@ -1,0 +1,37 @@
+.FAQCard {
+  border-top: 1px solid lightgray;
+  padding: 15px 10px;
+}
+
+.QuestionDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.Question {
+  font-size: 20px;
+  font-weight: 500;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.Icon {
+  width: 5%;
+  font-size: 25px;
+  text-align: end;
+  margin: 0;
+}
+
+.AnswerDiv {
+  padding: 15px 0;
+  transition-duration: 0.3s;
+}
+
+.Answer {
+  margin: 0;
+}

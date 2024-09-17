@@ -1,0 +1,13 @@
+.NotFoundText {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.LargeText {
+  display: block;
+  font-size: 70px;
+  margin-bottom: 20px;
+  color: #3f72af;
+  font-weight: 700;
+}

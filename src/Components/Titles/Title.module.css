@@ -1,0 +1,66 @@
+/* General Settings */
+
+.sectionTitle p {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: none;
+  margin-bottom: 10px;
+  line-height: 1;
+  color: grey;
+}
+
+.sectionBorder {
+  width: 60px;
+  border-top: 4px solid #3f72af;
+  margin: 20px 0 30px 0;
+}
+
+/* PageTitle */
+
+.sectionTitle h1 {
+  font-size: 40px;
+  font-weight: 500;
+  padding: none;
+  margin: none;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+/* Section Title */
+
+.sectionTitle h2 {
+  font-size: 34px;
+  font-weight: 600;
+  padding: none;
+  margin: none;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+/* Section Title Center */
+
+.sectionTitleCenter h2 {
+  font-size: 34px;
+  font-weight: 600;
+  padding: none;
+  margin: none;
+  line-height: 1.2;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.sectionTitleCenter p {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: none;
+  margin-bottom: 10px;
+  line-height: 1;
+  color: grey;
+  text-align: center;
+}
+
+.sectionBorderCenter {
+  width: 60px;
+  border-top: 4px solid #3f72af;
+  margin: 20px auto;
+}

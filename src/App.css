@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+/* Font Styling */
+
+* {
+  color: #252525;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+a,
+button,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #252525;
+  transition-duration: 0.3s;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #252525;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+  font-size: 42px;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-size: 36px;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+a {
+  color: unset;
+  border: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f72af;
+  transition-duration: 0.3s;
+}
+
+.primary-link {
+  color: #3f72af;
+}
+
+.primary-link:hover {
+  color: #2a4c75;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.medium {
+  font-weight: 400;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.main {
+  color: #3f72af;
+}
+
+p.large {
+  font-size: 18px;
+}
+
+/* Mobile Styling */
+
+@media screen and (max-width: 910px) {
+  .section-title h2 {
+    font-size: 30px;
   }
 }

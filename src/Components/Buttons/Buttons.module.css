@@ -1,0 +1,30 @@
+.BtnPrimary {
+  background-color: #3f72af;
+  color: white;
+  border: none;
+  padding: 12.5px 30px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.BtnPrimary:hover {
+  background-color: #355f92;
+}
+
+.BtnPrimaryOutline {
+  background-color: transparent;
+  color: #3f72af;
+  border: 2.5px solid #3f72af;
+  padding: 12.5px 30px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.BtnPrimaryOutline:hover {
+  background-color: #3f72af;
+  color: white;
+}

@@ -1,0 +1,31 @@
+.Divider {
+  margin: 0 10px;
+}
+
+.VisaName {
+  margin: 20px 0;
+}
+
+.Table {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.TableData,
+.TableTitle {
+  padding-bottom: 15px;
+}
+
+.TableTitle {
+  width: 35%;
+}
+
+.TableData {
+  width: 65%;
+  margin-left: 20px;
+}
+
+.Section {
+  margin-bottom: 50px;
+}

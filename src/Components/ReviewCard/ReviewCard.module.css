@@ -1,0 +1,11 @@
+.Title {
+  margin-top: 20px;
+}
+
+.Icon {
+  color: yellow !important;
+}
+
+.IconSpan * {
+  color: #ff9529;
+}

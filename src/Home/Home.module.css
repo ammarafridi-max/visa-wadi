@@ -1,0 +1,293 @@
+/* Home Styling */
+
+/* Hero  */
+
+.Hero {
+  width: 100%;
+  padding: 200px 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./hero-img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.HeroHeading {
+  font-size: 50px;
+}
+
+.HeroText {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+.HeroHeading,
+.HeroText {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* About Section */
+
+section.home-about {
+  padding: 100px 0;
+}
+
+.home-about-content {
+  width: 60%;
+  padding-left: 40px;
+}
+
+.AboutImg {
+  width: 40%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Testimonials Section */
+
+section.testimonials {
+  padding: 100px 0 225px 0;
+  background-color: #e7ecf1;
+}
+
+.testimonial-box {
+  width: 31%;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+img.testimonial-profile-img {
+  background-color: #252525;
+  height: 55px;
+  width: 55px;
+  border-radius: 100px;
+  border: transparent;
+  object-fit: cover;
+}
+
+div.testimonial-profile-img {
+  width: 20%;
+}
+
+div.testimonial-name {
+  width: 80%;
+}
+
+h6.testimonial-name {
+  color: #3f72af;
+  font-weight: 400;
+}
+
+.testimonial-text {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+/* Numbers Section */
+
+.Statistic {
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.3;
+  color: white;
+  font-weight: 400;
+}
+
+.Number {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+
+/* Services Section */
+
+div.service-img-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #060b10;
+  padding: 0;
+  margin: 0;
+}
+
+img.service-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+}
+
+h5.service-name {
+  position: relative;
+  bottom: 50%;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+/* Tour Section */
+
+section.tours {
+  padding: 100px 0;
+}
+
+div.tour-card {
+  width: 24%;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  padding: 0;
+}
+
+div.tour-img {
+  width: 100%;
+  height: 200px;
+  background-color: #060b10;
+}
+
+img.tour-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.tour-content {
+  padding: 20px 20px;
+  width: 100%;
+}
+
+h6.tour-name {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  width: 60%;
+}
+
+div.tour-price {
+  width: 40%;
+  padding: 0;
+}
+
+p.tour-price {
+  font-size: 18px;
+  width: 100%;
+  text-align: end;
+  color: #3f72af;
+  font-weight: 600;
+  align-items: center;
+}
+
+p.tour-description {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 15px 0;
+  text-align: justify;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 910px) {
+  .section-title h2 {
+    font-size: 30px;
+  }
+
+  /* Home Styling */
+
+  /* Hero */
+
+  section.hero {
+    width: 100%;
+    padding: 150px 0;
+  }
+
+  h1.hero-heading {
+    font-size: 40px;
+  }
+
+  /* About Styling */
+
+  section.home-about {
+    padding: 50px 0;
+  }
+
+  .home-about-img {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    padding: 0 40px;
+  }
+
+  div.home-about-content {
+    width: 100%;
+    padding: 50px 40px 50px 40px;
+    margin: 0;
+  }
+
+  div.home-about-content > .section-title {
+    text-align: center;
+  }
+
+  div.home-about-content > .section-title > .section-border {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* Testimonial Styling */
+
+  section.testimonials {
+    padding-top: 100px;
+    padding-bottom: 300px;
+  }
+
+  .testimonial-box {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-box:nth-child(3) {
+    margin-bottom: 0px;
+  }
+
+  div.testimonial-profile-img {
+    width: 20%;
+  }
+
+  div.testimonial-name {
+    width: 80%;
+  }
+
+  /* Numbers Styling */
+
+  div.numbers {
+    margin-top: -200px;
+  }
+
+  div.number {
+    border-right: none;
+    padding: 20px 0;
+  }
+
+  /* Tours Styling */
+
+  section.tours {
+    padding: 75px 0;
+    margin: auto;
+    overflow: scroll;
+  }
+
+  div.tour-img {
+    height: 250px;
+  }
+
+  div.tour-card {
+    width: 60%;
+    margin-bottom: 50px;
+  }
+
+  div.tour-card:nth-child(4) {
+    margin-bottom: 0px;
+  }
+}
